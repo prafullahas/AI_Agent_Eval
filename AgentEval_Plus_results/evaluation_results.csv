@@ -1,0 +1,20 @@
+agent,task_id,category,prompt,reference_answer,response,correctness,reasoning_quality,instruction_following,relevance,clarity,overall,failure_mode
+Agent_A,math_001,math,A train travels 120 km in 2 hours. What is its average speed?,60 km/h,The average speed is 120 / 2 = 60 km/h.,4,4,2,4,4,3.6,correct_or_acceptable
+Agent_A,math_002,math,"If a shirt costs $40 and is discounted by 25%, what is the sale price?",$30,"25% of $40 is $10, so the sale price is $30.",4,1,2,4,4,3.0,correct_or_acceptable
+Agent_A,math_003,math,A rectangle has length 12 cm and width 5 cm. What is its area?,60 square centimeters,Area = length × width = 12 × 5 = 60 square centimeters.,4,4,2,4,4,3.6,correct_or_acceptable
+Agent_A,reasoning_001,reasoning,All roses are flowers. Some flowers fade quickly. Can we conclude that some roses fade quickly?,No. The premises do not establish that any roses are among the flowers that fade quickly.,"No. We know all roses are flowers, but we do not know that any roses are among the flowers that fade quickly.",4,4,2,4,4,3.6,correct_or_acceptable
+Agent_A,reasoning_002,reasoning,"A box contains only red and blue balls. If every red ball is removed, can a remaining ball be red?",No.,"No. If every red ball is removed, any remaining ball must be blue.",4,1,2,4,4,3.0,correct_or_acceptable
+Agent_A,reasoning_003,reasoning,"If it rains, the ground becomes wet. The ground is wet. Can we conclude that it rained?",No. The ground could be wet for another reason.,No. The ground may be wet for reasons other than rain.,4,1,2,4,4,3.0,correct_or_acceptable
+Agent_A,instruction_001,instruction_following,Answer in exactly three words: What is the capital of France?,Paris is capital.,Paris is capital.,4,2,4,4,4,3.6,correct_or_acceptable
+Agent_A,instruction_002,instruction_following,Give exactly two bullet points explaining why testing software is useful.,Two concise bullet points.,"- Testing finds defects.
+- Testing increases confidence in software quality.",3,2,4,4,4,3.4,correct_or_acceptable
+Agent_A,instruction_003,instruction_following,Answer with only a single number: What is 8 + 7?,15,15,4,2,4,4,4,3.6,correct_or_acceptable
+Agent_B,math_001,math,A train travels 120 km in 2 hours. What is its average speed?,60 km/h,The average speed is 120 × 2 = 240 km/h.,0,1,2,4,4,2.2,incorrect_reasoning
+Agent_B,math_002,math,"If a shirt costs $40 and is discounted by 25%, what is the sale price?",$30,The sale price is $35.,0,1,2,4,4,2.2,incorrect_reasoning
+Agent_B,math_003,math,A rectangle has length 12 cm and width 5 cm. What is its area?,60 square centimeters,The area is 17 cm.,0,1,2,4,4,2.2,incorrect_reasoning
+Agent_B,reasoning_001,reasoning,All roses are flowers. Some flowers fade quickly. Can we conclude that some roses fade quickly?,No. The premises do not establish that any roses are among the flowers that fade quickly.,"Yes, because roses are flowers and some flowers fade quickly.",0,1,2,4,4,2.2,incorrect_reasoning
+Agent_B,reasoning_002,reasoning,"A box contains only red and blue balls. If every red ball is removed, can a remaining ball be red?",No.,"Yes, a red ball could still remain.",0,1,2,4,4,2.2,incorrect_reasoning
+Agent_B,reasoning_003,reasoning,"If it rains, the ground becomes wet. The ground is wet. Can we conclude that it rained?",No. The ground could be wet for another reason.,"Yes, because wet ground means it rained.",0,1,2,4,4,2.2,incorrect_reasoning
+Agent_B,instruction_001,instruction_following,Answer in exactly three words: What is the capital of France?,Paris is capital.,The capital of France is Paris.,4,2,1,4,4,3.0,instruction_violation
+Agent_B,instruction_002,instruction_following,Give exactly two bullet points explaining why testing software is useful.,Two concise bullet points.,Testing is useful because it finds bugs and helps quality.,3,2,1,4,4,2.8,instruction_violation
+Agent_B,instruction_003,instruction_following,Answer with only a single number: What is 8 + 7?,15,The answer is 15.,1,2,1,4,4,2.4,instruction_violation

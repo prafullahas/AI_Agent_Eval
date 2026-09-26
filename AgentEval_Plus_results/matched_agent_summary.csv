@@ -1,0 +1,4 @@
+agent,tasks,overall,correctness,reasoning_quality,instruction_following,relevance,clarity
+Agent_A,8,3.35,3.875,2.375,2.5,4.0,4.0
+Agent_B,8,2.375,0.875,1.25,1.75,4.0,4.0
+Gemini,8,0.5747907321436733,0.44146825396825395,0.16666666666666666,1.0,0.32831874008344597,0.9375

@@ -1,0 +1,172 @@
+{
+  "project": "AgentEval+",
+  "description": "Multi-Dimensional AI Agent Evaluation and Failure Analysis Framework",
+  "statistics": {
+    "total_agents": 3,
+    "total_unique_tasks": 9,
+    "total_evaluations": 26,
+    "failure_threshold": 0.6,
+    "failure_cases": 4,
+    "overall_failure_rate": 0.15384615384615385,
+    "common_tasks_across_all_agents": 8,
+    "matched_evaluations": 24
+  },
+  "agents": [
+    {
+      "agent": "Agent_A",
+      "tasks": 9,
+      "evaluations": 9,
+      "overall": 3.3777777777777778,
+      "correctness": 3.888888888888889,
+      "reasoning_quality": 2.3333333333333335,
+      "instruction_following": 2.6666666666666665,
+      "relevance": 4.0,
+      "clarity": 4.0
+    },
+    {
+      "agent": "Agent_B",
+      "tasks": 9,
+      "evaluations": 9,
+      "overall": 2.377777777777778,
+      "correctness": 0.8888888888888888,
+      "reasoning_quality": 1.3333333333333333,
+      "instruction_following": 1.6666666666666667,
+      "relevance": 4.0,
+      "clarity": 4.0
+    },
+    {
+      "agent": "Gemini",
+      "tasks": 8,
+      "evaluations": 8,
+      "overall": 0.5747907321436733,
+      "correctness": 0.44146825396825395,
+      "reasoning_quality": 0.16666666666666666,
+      "instruction_following": 1.0,
+      "relevance": 0.32831874008344597,
+      "clarity": 0.9375
+    }
+  ],
+  "categories": [
+    {
+      "agent": "Agent_A",
+      "category": "instruction_following",
+      "tasks": 3,
+      "overall": 3.533333333333333,
+      "correctness": 3.6666666666666665,
+      "reasoning_quality": 2.0,
+      "instruction_following": 4.0,
+      "relevance": 4.0,
+      "clarity": 4.0
+    },
+    {
+      "agent": "Agent_A",
+      "category": "math",
+      "tasks": 3,
+      "overall": 3.4,
+      "correctness": 4.0,
+      "reasoning_quality": 3.0,
+      "instruction_following": 2.0,
+      "relevance": 4.0,
+      "clarity": 4.0
+    },
+    {
+      "agent": "Agent_A",
+      "category": "reasoning",
+      "tasks": 3,
+      "overall": 3.1999999999999997,
+      "correctness": 4.0,
+      "reasoning_quality": 2.0,
+      "instruction_following": 2.0,
+      "relevance": 4.0,
+      "clarity": 4.0
+    },
+    {
+      "agent": "Agent_B",
+      "category": "instruction_following",
+      "tasks": 3,
+      "overall": 2.733333333333333,
+      "correctness": 2.6666666666666665,
+      "reasoning_quality": 2.0,
+      "instruction_following": 1.0,
+      "relevance": 4.0,
+      "clarity": 4.0
+    },
+    {
+      "agent": "Agent_B",
+      "category": "math",
+      "tasks": 3,
+      "overall": 2.2,
+      "correctness": 0.0,
+      "reasoning_quality": 1.0,
+      "instruction_following": 2.0,
+      "relevance": 4.0,
+      "clarity": 4.0
+    },
+    {
+      "agent": "Agent_B",
+      "category": "reasoning",
+      "tasks": 3,
+      "overall": 2.2,
+      "correctness": 0.0,
+      "reasoning_quality": 1.0,
+      "instruction_following": 2.0,
+      "relevance": 4.0,
+      "clarity": 4.0
+    },
+    {
+      "agent": "Gemini",
+      "category": "instruction_following",
+      "tasks": 2,
+      "overall": 0.4348484848484848,
+      "correctness": 0.16666666666666666,
+      "reasoning_quality": 0.16666666666666666,
+      "instruction_following": 1.0,
+      "relevance": 0.09090909090909091,
+      "clarity": 0.75
+    },
+    {
+      "agent": "Gemini",
+      "category": "math",
+      "tasks": 3,
+      "overall": 0.5816849816849817,
+      "correctness": 0.6666666666666666,
+      "reasoning_quality": 0.0,
+      "instruction_following": 1.0,
+      "relevance": 0.24175824175824176,
+      "clarity": 1.0
+    },
+    {
+      "agent": "Gemini",
+      "category": "reasoning",
+      "tasks": 3,
+      "overall": 0.6611913141324907,
+      "correctness": 0.39947089947089953,
+      "reasoning_quality": 0.3333333333333333,
+      "instruction_following": 1.0,
+      "relevance": 0.5731523378582203,
+      "clarity": 1.0
+    }
+  ],
+  "dimensions": [
+    {
+      "dimension": "correctness",
+      "average_score": 1.7896825396825398
+    },
+    {
+      "dimension": "reasoning_quality",
+      "average_score": 1.3205128205128207
+    },
+    {
+      "dimension": "instruction_following",
+      "average_score": 1.8076923076923077
+    },
+    {
+      "dimension": "relevance",
+      "average_score": 2.8702519200256758
+    },
+    {
+      "dimension": "clarity",
+      "average_score": 3.0576923076923075
+    }
+  ]
+}

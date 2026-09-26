@@ -1,0 +1,10 @@
+agent,task_id,category,prompt,response,failure_mode,correctness,reasoning_quality,instruction_following,relevance,clarity,overall
+Agent_B,math_001,math,A train travels 120 km in 2 hours. What is its average speed?,The average speed is 120 × 2 = 240 km/h.,incorrect_reasoning,0,1,2,4,4,2.2
+Agent_B,math_002,math,"If a shirt costs $40 and is discounted by 25%, what is the sale price?",The sale price is $35.,incorrect_reasoning,0,1,2,4,4,2.2
+Agent_B,math_003,math,A rectangle has length 12 cm and width 5 cm. What is its area?,The area is 17 cm.,incorrect_reasoning,0,1,2,4,4,2.2
+Agent_B,reasoning_001,reasoning,All roses are flowers. Some flowers fade quickly. Can we conclude that some roses fade quickly?,"Yes, because roses are flowers and some flowers fade quickly.",incorrect_reasoning,0,1,2,4,4,2.2
+Agent_B,reasoning_002,reasoning,"A box contains only red and blue balls. If every red ball is removed, can a remaining ball be red?","Yes, a red ball could still remain.",incorrect_reasoning,0,1,2,4,4,2.2
+Agent_B,reasoning_003,reasoning,"If it rains, the ground becomes wet. The ground is wet. Can we conclude that it rained?","Yes, because wet ground means it rained.",incorrect_reasoning,0,1,2,4,4,2.2
+Agent_B,instruction_001,instruction_following,Answer in exactly three words: What is the capital of France?,The capital of France is Paris.,instruction_violation,4,2,1,4,4,3.0
+Agent_B,instruction_002,instruction_following,Give exactly two bullet points explaining why testing software is useful.,Testing is useful because it finds bugs and helps quality.,instruction_violation,3,2,1,4,4,2.8
+Agent_B,instruction_003,instruction_following,Answer with only a single number: What is 8 + 7?,The answer is 15.,instruction_violation,1,2,1,4,4,2.4

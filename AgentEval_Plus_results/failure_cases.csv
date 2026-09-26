@@ -1,0 +1,10 @@
+agent,task_id,category,prompt,reference_answer,response,correctness,reasoning_quality,instruction_following,relevance,clarity,overall,failure_mode,is_failure
+Gemini,instruction_001,instruction_following,Answer in exactly three words: What is the capital of France?,,It is Paris.,0.3333333333333333,0.0,1.0,0.09090909090909091,0.5,0.38484848484848483,low_overall_score,True
+Gemini,math_003,math,A rectangle has length 12 cm and width 5 cm. What is its area?,,"The area of the rectangle is **60 cm²** (square centimeters).
+
+$$\text{Area} = \text{length} \times \text{width} = 12 \text{ cm} \times 5 \text{ cm} = 60 \text{ cm}^2$$",0.0,0.0,1.0,0.2857142857142857,1.0,0.45714285714285713,low_overall_score,True
+Gemini,reasoning_002,reasoning,"A box contains only red and blue balls. If every red ball is removed, can a remaining ball be red?",,"**No.** 
+
+Since every red ball was removed, none of the remaining balls can be red (any remaining balls must be blue).",0.0,0.0,1.0,0.4117647058823529,1.0,0.48235294117647054,low_overall_score,True
+Gemini,instruction_002,instruction_following,Give exactly two bullet points explaining why testing software is useful.,,"* **Identifies bugs early:** It catches defects and vulnerabilities before release, reducing the cost, time, and risk associated with fixing issues in production.
+* **Ensures quality and reliability:** It verifies that the software meets functional requirements and performs well, leading to a better user experience and higher customer trust.",0.0,0.3333333333333333,1.0,0.09090909090909091,1.0,0.48484848484848475,low_overall_score,True

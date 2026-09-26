@@ -1,0 +1,10 @@
+agent,category,correctness,reasoning_quality,instruction_following,relevance,clarity,overall
+Agent_A,instruction_following,3.667,2.0,4.0,4.0,4.0,3.533
+Agent_A,math,4.0,3.0,2.0,4.0,4.0,3.4
+Agent_A,reasoning,4.0,2.0,2.0,4.0,4.0,3.2
+Agent_B,instruction_following,2.667,2.0,1.0,4.0,4.0,2.733
+Agent_B,math,0.0,1.0,2.0,4.0,4.0,2.2
+Agent_B,reasoning,0.0,1.0,2.0,4.0,4.0,2.2
+Gemini,instruction_following,0.167,0.167,1.0,0.091,0.75,0.435
+Gemini,math,0.667,0.0,1.0,0.242,1.0,0.582
+Gemini,reasoning,0.399,0.333,1.0,0.573,1.0,0.661

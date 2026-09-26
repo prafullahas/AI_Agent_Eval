@@ -1,0 +1,10 @@
+agent,category,total_tasks,failures,average_score,failure_rate
+Agent_A,instruction_following,3,0,3.533333333333333,0.0
+Agent_A,math,3,0,3.4,0.0
+Agent_A,reasoning,3,0,3.1999999999999997,0.0
+Agent_B,instruction_following,3,0,2.733333333333333,0.0
+Agent_B,math,3,0,2.2,0.0
+Agent_B,reasoning,3,0,2.2,0.0
+Gemini,instruction_following,2,2,0.4348484848484848,1.0
+Gemini,math,3,1,0.5816849816849817,0.3333333333333333
+Gemini,reasoning,3,1,0.6611913141324907,0.3333333333333333

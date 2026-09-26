@@ -1,0 +1,25 @@
+AgentEval+ — Final Evaluation Report
+==================================================
+
+Agents evaluated: 3
+Unique tasks: 9
+Total evaluations: 26
+Common tasks across all agents: 8
+Matched evaluations: 24
+Failure threshold: 0.6
+Failure cases: 4
+Overall failure rate: 15.38%
+
+Agent Summary
+--------------------------------------------------
+Agent_A: overall=3.378, correctness=3.889, reasoning=2.333, instruction_following=2.667, relevance=4.000, clarity=4.000
+Agent_B: overall=2.378, correctness=0.889, reasoning=1.333, instruction_following=1.667, relevance=4.000, clarity=4.000
+Gemini: overall=0.575, correctness=0.441, reasoning=0.167, instruction_following=1.000, relevance=0.328, clarity=0.938
+
+Dimension Summary
+--------------------------------------------------
+correctness: 1.790
+reasoning_quality: 1.321
+instruction_following: 1.808
+relevance: 2.870
+clarity: 3.058

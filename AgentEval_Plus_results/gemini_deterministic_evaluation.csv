@@ -1,0 +1,28 @@
+task_id,category,agent,prompt,response,correctness,reasoning_quality,instruction_following,relevance,clarity,overall_score
+math_001,math,Gemini,A train travels 120 km in 2 hours. What is its average speed?,"The average speed is **60 km/h**.
+
+$$\text{Speed} = \frac{\text{Distance}}{\text{Time}} = \frac{120\text{ km}}{2\text{ h}} = 60\text{ km/h}$$",1.0,0.0,1.0,0.15384615384615385,1.0,0.6307692307692307
+math_002,math,Gemini,"If a shirt costs $40 and is discounted by 25%, what is the sale price?","The sale price is **$30**.
+
+**Calculation:**
+* **Discount amount:** $40 \times 0.25 = $10
+* **Sale price:** $40 - $10 = **$30**
+
+*(Alternatively: $40 \times 75\% = $30)*",1.0,0.0,1.0,0.2857142857142857,1.0,0.6571428571428571
+math_003,math,Gemini,A rectangle has length 12 cm and width 5 cm. What is its area?,"The area of the rectangle is **60 cm²** (square centimeters).
+
+$$\text{Area} = \text{length} \times \text{width} = 12 \text{ cm} \times 5 \text{ cm} = 60 \text{ cm}^2$$",0.0,0.0,1.0,0.2857142857142857,1.0,0.45714285714285713
+reasoning_001,reasoning,Gemini,All roses are flowers. Some flowers fade quickly. Can we conclude that some roses fade quickly?,"**No**, we cannot conclude that some roses fade quickly.
+
+**Why:** 
+While all roses are flowers, the flowers that fade quickly might not include any roses at all—they could be entirely different types of flowers (like daisies or tulips). Therefore, the information provided does not guarantee that any roses fade quickly.",0.6428571428571429,0.6666666666666666,1.0,0.7692307692307693,1.0,0.8157509157509157
+reasoning_002,reasoning,Gemini,"A box contains only red and blue balls. If every red ball is removed, can a remaining ball be red?","**No.** 
+
+Since every red ball was removed, none of the remaining balls can be red (any remaining balls must be blue).",0.0,0.0,1.0,0.4117647058823529,1.0,0.48235294117647054
+reasoning_003,reasoning,Gemini,"If it rains, the ground becomes wet. The ground is wet. Can we conclude that it rained?","**No**, we cannot conclude that it rained.
+
+**Why:** 
+This is a classic logical fallacy known as *affirming the consequent*. While rain causes the ground to become wet, there are many other possible reasons for the ground to be wet (for example, a sprinkler, a burst pipe, someone washing a car, or melting snow).",0.5555555555555556,0.3333333333333333,1.0,0.5384615384615384,1.0,0.6854700854700855
+instruction_001,instruction_following,Gemini,Answer in exactly three words: What is the capital of France?,It is Paris.,0.3333333333333333,0.0,1.0,0.09090909090909091,0.5,0.38484848484848483
+instruction_002,instruction_following,Gemini,Give exactly two bullet points explaining why testing software is useful.,"* **Identifies bugs early:** It catches defects and vulnerabilities before release, reducing the cost, time, and risk associated with fixing issues in production.
+* **Ensures quality and reliability:** It verifies that the software meets functional requirements and performs well, leading to a better user experience and higher customer trust.",0.0,0.3333333333333333,1.0,0.09090909090909091,1.0,0.48484848484848475

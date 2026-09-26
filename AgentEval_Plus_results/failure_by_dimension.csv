@@ -1,0 +1,16 @@
+agent,dimension,low_score_tasks,total_tasks,failure_rate
+Agent_A,correctness,0,9,0.0
+Agent_A,reasoning_quality,0,9,0.0
+Agent_A,instruction_following,0,9,0.0
+Agent_A,relevance,0,9,0.0
+Agent_A,clarity,0,9,0.0
+Agent_B,correctness,6,9,0.6666666666666666
+Agent_B,reasoning_quality,0,9,0.0
+Agent_B,instruction_following,0,9,0.0
+Agent_B,relevance,0,9,0.0
+Agent_B,clarity,0,9,0.0
+Gemini,correctness,5,8,0.625
+Gemini,reasoning_quality,7,8,0.875
+Gemini,instruction_following,0,8,0.0
+Gemini,relevance,7,8,0.875
+Gemini,clarity,1,8,0.125

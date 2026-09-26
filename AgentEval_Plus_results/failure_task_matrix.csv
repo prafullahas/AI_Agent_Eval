@@ -1,0 +1,10 @@
+task_id,Agent_A,Agent_B,Gemini
+instruction_001,False,False,True
+instruction_002,False,False,True
+instruction_003,False,False,False
+math_001,False,False,False
+math_002,False,False,False
+math_003,False,False,True
+reasoning_001,False,False,False
+reasoning_002,False,False,True
+reasoning_003,False,False,False

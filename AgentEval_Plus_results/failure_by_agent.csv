@@ -1,0 +1,4 @@
+agent,total_tasks,failures,failure_rate
+Agent_A,9,0,0.0
+Agent_B,9,0,0.0
+Gemini,8,4,0.5

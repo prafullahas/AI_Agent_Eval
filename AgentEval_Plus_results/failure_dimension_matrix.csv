@@ -1,0 +1,6 @@
+dimension,Agent_A,Agent_B,Gemini
+clarity,0,0,1
+correctness,0,6,5
+instruction_following,0,0,0
+reasoning_quality,0,0,7
+relevance,0,0,7

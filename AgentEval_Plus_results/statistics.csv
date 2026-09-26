@@ -1,0 +1,3 @@
+agent,n_tasks,mean,std,ci_95_low,ci_95_high
+Agent_A,9,3.378,0.291,3.154,3.601
+Agent_B,9,2.378,0.307,2.142,2.614

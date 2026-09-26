@@ -1,0 +1,9 @@
+task_id,category,Agent_A,Agent_B,Gemini
+instruction_001,instruction_following,3.6,3.0,0.38484848484848483
+instruction_002,instruction_following,3.4,2.8,0.48484848484848475
+math_001,math,3.6,2.2,0.6307692307692307
+math_002,math,3.0,2.2,0.6571428571428571
+math_003,math,3.6,2.2,0.45714285714285713
+reasoning_001,reasoning,3.6,2.2,0.8157509157509157
+reasoning_002,reasoning,3.0,2.2,0.48235294117647054
+reasoning_003,reasoning,3.0,2.2,0.6854700854700855
