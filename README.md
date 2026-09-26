@@ -90,3 +90,37 @@ It also provides task-level, category-level, and agent-level analysis to help id
               │  JSON                            │
               │  Visualizations                  │
               └──────────────────────────────────┘
+
+
+**# Limitations**
+
+Small benchmark size
+Heuristic baseline evaluation
+API availability and quota limitations
+Primarily focused on mathematical reasoning
+Simplified evaluation criteria
+
+**# Future Improvements**
+
+Larger benchmarks
+LLM-as-a-Judge
+Independent judge models
+Pairwise agent evaluation
+Advanced failure classification
+Human evaluation
+Agent trajectory evaluation
+Tool-use evaluation
+Cost and latency benchmarking
+Interactive Streamlit dashboard
+Automated experiment tracking
+
+**#Tech Stack**
+
+Python
+Jupyter
+Microsoft AutoGen
+Gemini API
+Pandas
+NumPy
+Scikit-learn
+Matplotlib
